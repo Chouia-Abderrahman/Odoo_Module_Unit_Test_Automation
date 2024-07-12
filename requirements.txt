@@ -1,0 +1,2 @@
+-r odoo/requirements.txt
+phonenumbers==8.12.18
