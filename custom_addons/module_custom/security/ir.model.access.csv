@@ -1,2 +1,2 @@
 "id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
-"access_auth_totp_rate_limit_log","access_auth_totp_rate_limit_log","model_test_model","base.group_user",1,1,1,1
+"test_tes_tes_tset_set","access_auth_totp_rate_limit_log","model_test_model","base.group_user",1,1,1,1
