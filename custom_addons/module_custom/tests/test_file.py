@@ -1,7 +1,5 @@
 from odoo.exceptions import ValidationError
-from odoo.tests import tagged
-
-from odoo.odoo.tests import TransactionCase
+from odoo.tests import tagged, TransactionCase
 
 
 @tagged('-at_install', 'post_install')
