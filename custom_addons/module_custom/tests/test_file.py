@@ -11,4 +11,4 @@ class TestModuleee(TransactionCase):
           rec = self.env['test.model'].create({
             "name": "test_name"
         })
-          self.assertEquals(rec.number, 50)
+          self.assertEqual(rec.number, 50)
