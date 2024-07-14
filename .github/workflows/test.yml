@@ -38,11 +38,6 @@ jobs:
           pip install -e odoo
           pip install -r requirements.txt
 
-      - name: Configure Odoo
-        run: |
-          cd odoo
-          cp odoo/tools/config.py odoo/tools/config.py.bak
-          sed -i 's/^\(addons_path\s*=\s*\).*\$/\1addons,test_module/' odoo/tools/config.py
 
       - name: Run Odoo tests
         run: |
