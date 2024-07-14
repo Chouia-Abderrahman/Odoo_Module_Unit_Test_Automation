@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Odoo tests
         run: |
-          odoo/odoo-bin --addons-path=odoo/addons,custom_addons -d test_db --db-filter=test_db$ -i test_module --test-tags test_module --stop-after-init --test-enable
+          odoo/odoo-bin --addons-path=odoo/addons,custom_addons -d test_db --db-filter=test_db$ --without-demo --test-enable -i module_custom --test-tags module_custom --stop-after-init --test-enable
         env:
           PGHOST: localhost
           PGPORT: 5432
