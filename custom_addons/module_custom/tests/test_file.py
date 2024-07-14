@@ -5,7 +5,9 @@ from odoo.odoo.tests import TransactionCase
 
 
 @tagged('-at_install', 'post_install')
-class TestArchiveReason(TransactionCase):
+class TestModuleee(TransactionCase):
+     def setUp(self):
+        pass
 
     def test_create_works(self):
         rec = self.env['test.model'].create({
