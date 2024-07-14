@@ -9,8 +9,8 @@ class TestModuleee(TransactionCase):
      def setUp(self):
         pass
 
-    def test_create_works(self):
-        rec = self.env['test.model'].create({
+     def test_create_works(self):
+          rec = self.env['test.model'].create({
             "name": "test_name"
         })
-        self.assertEquals(rec.number, 50)
+          self.assertEquals(rec.number, 50)
