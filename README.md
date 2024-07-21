@@ -29,5 +29,6 @@ The GitHub Actions workflow is defined in `.github/workflows/test.yml`. This wor
 4. **Run unit tests**: Executes the unit tests for the custom module.
 
 ## Usage
-To use this repository for your own Odoo projects, simply copy the workflow file from the .github/workflows directory and customize it to fit your project's requirements.
+To use this repository for your own Odoo projects, simply copy the [workflow file](.github/workflows/test.yml) and customize it to fit your project's requirements.
+
 
